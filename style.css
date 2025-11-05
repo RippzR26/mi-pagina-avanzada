@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+    transition: 0.3s;
+}
+
+.header {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header button {
+    padding: 8px 15px;
+    background: #558cff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.services {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.card {
+    flex: 1;
+    background: #e9e9e9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.card:hover {
+    background: #d3d3d3;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.btnSend {
+    width: 100%;
+    background: #3f73ff;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ───────── TEMA OSCURO ───────── */
+.dark {
+    background: #111;
+    color: white;
+}
+
+.dark .header {
+    background: #000;
+}
+
+.dark .card {
+    background: #444;
+}
+
+.dark input {
+    background: #222;
+    color: white;
+}
