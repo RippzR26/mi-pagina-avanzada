@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <header class="header">
+        <h1>Bienvenidos a Página - Diego Tutos</h1>
+        <button id="btnTheme">Cambiar Tema</button>
+    </header>
+
+    <section class="container">
+        <h2>Sobre mí</h2>
+        <p>Soy Diego Garduño Cabrera y esta es la actividad de resultado de aprendizaje</p>
+
+        <h2>Servicios</h2>
+        <div class="services">
+            <div class="card">Diseño Web</div>
+            <div class="card">Desarrollo Frontend</div>
+            <div class="card">Aplicaciones C#</div>
+        </div>
+
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Tu nombre" required>
+            <input type="email" id="email" placeholder="Tu correo" required>
+            <button type="submit" class="btnSend">Enviar</button>
+        </form>
+
+        <p id="msg" class="hidden">✅ Mensaje enviado con éxito</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
